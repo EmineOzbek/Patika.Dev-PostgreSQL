@@ -1,4 +1,6 @@
 # Patika.Dev-PostgreSQL
+[ÖDEV 1](https://github.com/EmineOzbek/Patika.Dev-PostgreSQL/blob/main/README.md#%C3%B6dev-1-)<br/>
+<br/>
 ## ÖDEV 1 <br/>
 Film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.<br/>
 `SELECT title, description FROM film;` <br/>
