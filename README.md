@@ -1,7 +1,7 @@
 # Patika.Dev-PostgreSQL
 [ÖDEV 1](https://github.com/EmineOzbek/Patika.Dev-PostgreSQL/blob/main/README.md#%C3%B6dev-1-)<br/>
 [ÖDEV 2](https://github.com/EmineOzbek/Patika.Dev-PostgreSQL/blob/main/README.md#%C3%B6dev-2-)<br/>
-[ÖDEV 3](https://github.com/EmineOzbek/Patika.Dev-PostgreSQL/blob/main/README.md#%C3%B6dev-3-)<br/>
+[ÖDEV 3](https://github.com/EmineOzbek/Patika.Dev-PostgreSQL/blob/main/README.md#%C3%B6dev-3)<br/>
 [ÖDEV 4](https://github.com/EmineOzbek/Patika.Dev-PostgreSQL/blob/main/README.md#%C3%B6dev-4)<br/>
 <br/>
 ## ÖDEV 1 
