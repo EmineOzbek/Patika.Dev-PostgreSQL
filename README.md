@@ -1,6 +1,7 @@
 # Patika.Dev-PostgreSQL
 [ÖDEV 1](https://github.com/EmineOzbek/Patika.Dev-PostgreSQL/blob/main/README.md#%C3%B6dev-1-)<br/>
 [ÖDEV 2](https://github.com/EmineOzbek/Patika.Dev-PostgreSQL/blob/main/README.md#%C3%B6dev-2-)<br/>
+[ÖDEV 3](https://github.com/EmineOzbek/Patika.Dev-PostgreSQL/blob/main/README.md#%C3%B6dev-3-)<br/>
 <br/>
 ## ÖDEV 1 <br/>
 Film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.<br/>
@@ -17,7 +18,6 @@ WHERE rental_rate = 0.99 AND replacement_cost = 12.99 OR replacement_cost =28.99
 Customer tablosunda bulunan first_name sütunundaki değeri 'Mary' olan müşterinin last_name sütunundaki değeri nedir? <br/>
 `SELECT last_name FROM customer 
 WHERE first_name = 'Mary';` <br/>
-<br/>
 Film tablosundaki uzunluğu(length) 50 ten büyük OLMAYIP aynı zamanda rental_rate değeri 2.99 veya 4.99 OLMAYAN verileri sıralayınız. <br/>
 `SELECT * FROM film
 WHERE NOT length >50 AND NOT (rental_rate = 2.99 Or rental_rate = 4.99);
