@@ -1,5 +1,6 @@
 # Patika.Dev-PostgreSQL
 [ÖDEV 1](https://github.com/EmineOzbek/Patika.Dev-PostgreSQL/blob/main/README.md#%C3%B6dev-1-)<br/>
+[ÖDEV 2](https://github.com/EmineOzbek/Patika.Dev-PostgreSQL/blob/main/README.md#%C3%B6dev-2-)<br/>
 <br/>
 ## ÖDEV 1 <br/>
 Film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.<br/>
@@ -34,5 +35,5 @@ WHERE first_name IN ('Penelope', 'Nick', 'Ed');` <br/>
 Film tablosunda bulunan tüm sütunlardaki verileri rental_rate 0.99, 2.99, 4.99 VE replacement_cost 12.99, 15.99, 28.99 olma koşullarıyla sıralayınız. (IN operatörünü kullanınız.) <br/>
 `SELECT * FROM film
 WHERE rental_rate IN (0.99,2.99,4.99) AND replacement_cost IN (12.99,15.99,28.99);` <br/>
-
+<br/>
 
