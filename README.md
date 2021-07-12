@@ -102,7 +102,7 @@ LIMIT 5;
 ```sql
 SELECT * FROM film
 WHERE title LIKE '%n'
-ORDER BY length
+ORDER BY length ASC
 OFFSET 5
 LIMIT 5;
 ```
