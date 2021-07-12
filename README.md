@@ -3,6 +3,7 @@
 [ÖDEV 2](https://github.com/EmineOzbek/Patika.Dev-PostgreSQL/blob/main/README.md#%C3%B6dev-2)<br/>
 [ÖDEV 3](https://github.com/EmineOzbek/Patika.Dev-PostgreSQL/blob/main/README.md#%C3%B6dev-3)<br/>
 [ÖDEV 4](https://github.com/EmineOzbek/Patika.Dev-PostgreSQL/blob/main/README.md#%C3%B6dev-4)<br/>
+[ÖDEV 5](https://github.com/EmineOzbek/Patika.Dev-PostgreSQL/blob/main/README.md#%C3%B6dev-5)<br/>
 <br/>
 ## ÖDEV 1 
 #### Film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.
