@@ -263,7 +263,7 @@ WHERE email = 'vblamirec@jugem.jp';
 #### City tablosu ile country tablosunda bulunan şehir (city) ve ülke (country) isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
 ````sql
 SELECT city, country FROM city
-INNER JOIN country ON city.city_id = country.country_id;
+INNER JOIN country ON city.country_id = country.country_id;
 ````
 #### Customer tablosu ile payment tablosunda bulunan payment_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
 ````sql
