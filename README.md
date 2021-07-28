@@ -373,3 +373,39 @@ SELECT first_name, last_name,
 )
 FROM customer;
 ````
+
+## GENEL TEKRAR
+#### Film tablosunda isminde en az 4 adet 'e' veya 'E' karakteri bulunan kç tane film vardır?
+````sql
+SELECT COUNT(*) FROM film
+WHERE title ILIKE '%e%e%e%e%';
+````
+#### Film tablosundan 'K' karakteri ile başlayan en uzun ve replacenet_cost u en düşük 4 filmi sıralayınız.
+````sql
+SELECT title, length, replacement_cost FROM film
+WHERE title LIKE 'K%' 
+ORDER BY length DESC, replacement_cost ASC
+LIMIT 3;
+````
+#### Film tablosunda içerisinden en fazla sayıda film bulunduran rating kategorisi hangisidir?
+````sql
+SELECT rating, COUNT(rating) FROM film
+GROUP BY rating
+ORDER BY COUNT(*) DESC
+LIMIT 1;
+````
+#### Customer tablosunda en çok alışveriş yapan müşterinin adı nedir?
+````sql
+SELECT first_name, last_name, SUM(amount) FROM customer
+INNER JOIN payment ON customer.customer_id = payment.customer_id
+GROUP BY payment.customer_id, first_name, last_name
+ORDER BY SUM(amount) DESC
+LIMIT 1;
+````
+#### Category tablosundan kategori isimlerini ve kategori başına düşen film sayılarını sıralayınız.
+````sql
+SELECT name, COUNT(*) FROM category
+INNER JOIN film_category ON film_category.category_id = category.category_id
+INNER JOIN film ON film_category.film_id = film.film_id
+GROUP BY name;
+````
